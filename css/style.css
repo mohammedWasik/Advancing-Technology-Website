@@ -1,0 +1,220 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Roboto", sans-serif;
+  margin: 25px 0;
+}
+h1 {
+  font-size: 36px;
+}
+h2 {
+  font-size: 32px;
+}
+h3 {
+  font-size: 28px;
+}
+h4 {
+  font-size: 24px;
+}
+h5 {
+  font-size: 20px;
+}
+body {
+  font-family: "Open Sans", sans-serif;
+  margin: 0 auto;
+}
+table {
+  table-layout: fixed;
+  width: 100%;
+}
+th {
+  background: #495867;
+  color: white;
+}
+td {
+  border: 2px solid #bdd5ea;
+
+  background: white;
+  text-align: center;
+  padding: 10px;
+}
+/*default*/
+img {
+  display: block;
+  max-width: 100%;
+}
+
+section {
+  overflow: auto;
+}
+.wrap {
+  max-width: 100%;
+  padding: 80px;
+  overflow: auto;
+}
+.wrap3points {
+  max-width: 100%;
+  padding: 80px;
+  background: url(../images/swirl.png);
+}
+.expectation {
+  background: #bdd5ea;
+}
+footer {
+  text-align: center;
+  color: white;
+  background: #495867;
+  padding: 1px;
+}
+
+.waiting {
+  background: #bdd5ea;
+  text-align: center;
+}
+
+.ppp {
+  background: #bdd5ea;
+}
+body {
+  font-size: 18px;
+}
+p {
+  line-height: 1.4;
+}
+.button {
+  background: #e42e21;
+  color: white;
+  padding: 5px;
+  text-decoration: none;
+  border-radius: 8%;
+}
+
+/*header*/
+header {
+  background: url(../images/conference-hero.jpg);
+  text-align: center;
+  color: white;
+  padding: 80px 0;
+}
+
+header img {
+  margin: 0 auto;
+  width: 200px;
+  border: 5px solid white;
+  border-radius: 50%;
+  padding: 5px;
+}
+
+/**three points section**/
+.three-points-section img {
+  width: 300px;
+  margin: 0 auto;
+  border-radius: 50%;
+}
+.three-points-section img:hover {
+  border: 5px solid black;
+  padding: 1px;
+}
+.three-points-section {
+  min-height: 400px;
+  background: url(../images/swirl.png);
+}
+
+.three-points-text {
+  width: 60%;
+  float: left;
+}
+
+.three-points-img {
+  width: 40%;
+  float: left;
+}
+
+/*speakers*/
+#speakers {
+  margin-bottom: 20px;
+}
+#speakers img {
+  width: 150px;
+  margin: 0 auto;
+  border-radius: 50%;
+}
+#speakers p {
+  padding: 10px;
+}
+
+.speakers-day-section {
+  min-height: 200px;
+  margin-bottom: 60px;
+}
+.speakers-section1 {
+  width: 49%;
+  float: left;
+  border: 1px solid grey;
+  padding: 1px;
+  box-shadow: 2px 2px;
+  margin: 3px;
+  background: url(../images/swirl.png);
+}
+.speakers-section2 {
+  width: 49%;
+  float: right;
+  border: 1px solid grey;
+  padding: 1px;
+  box-shadow: 2px 2px;
+  margin: 3px;
+  background: url(..//images/swirl.png);
+}
+.speakers-day-img {
+  width: 40%;
+  float: left;
+}
+.speakers-day-text {
+  width: 60%;
+  float: left;
+}
+
+#h2tag {
+  text-align: center;
+}
+
+.form-section {
+  text-align: center;
+}
+
+#ticketFooter {
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+}
+#speakers h3 {
+  text-align: center;
+}
+
+.content {
+  min-height: calc(100vh - 40px);
+}
+form {
+  display: inline-block;
+  border: 1px solid;
+  padding: 75px;
+  background: url(../images/swirl.png);
+  max-width: 40%;
+}
+.name-input {
+  display: block;
+  margin: 15px;
+}
+.email-input {
+  display: block;
+  margin: 15px;
+}
+#package {
+  margin-bottom: 15px;
+}
+#checkboxes {
+  margin-bottom: 15px;
+}

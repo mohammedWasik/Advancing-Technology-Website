@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Roboto:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Tickets</title>
+  </head>
+
+  <body>
+    <section class="content">
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="tickets.html">Tickets</a></li>
+        </ul>
+      </nav>
+
+      <header>
+        <img src="images/hero-symbol.jpg" />
+        <h1>ADVANCING TECHNOLOGY</h1>
+        <h2>1st Annual Budding Developers Conference</h2>
+        <h4>Orlando,FL -October 11,2020</h4>
+      </header>
+
+      <h2 id="h2tag"><strong>Get your tickets!!</strong></h2>
+
+      <section>
+        <div class="wrap">
+          <div class="wrapTicket">
+            <div class="form-section">
+              <form action="" method="post">
+                <h3>Your Info</h3>
+
+                <div class="name-input">
+                  <input type="text" name="name" required placeholder="NAME" />
+                </div>
+                <div class="email-input">
+                  <input
+                    type="text"
+                    placeholder="EMAIL"
+                    name="email"
+                    required
+                  />
+                </div>
+                <h4>Package</h4>
+
+                <div>
+                  <select name="package" id="package">
+                    <option value="standard">Standard-$100</option>
+                    <option value="premium">Premium-$200</option>
+                  </select>
+                </div>
+
+                <div id="checkboxes">
+                  <div>
+                    <input type="checkbox" name="lodging" id="lodging" />
+                    <label for="lodging">Add on lodging -$100</label>
+                  </div>
+
+                  <div>
+                    <input type="checkbox" name="meal" id="meal" />
+                    <label for="meal">Add on Meals -$150</label>
+                  </div>
+                </div>
+
+                <input type="submit" class="button" value="submit" />
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <a href="index.html">Back to home</a>
+      </section>
+    </section>
+
+    <footer id="ticketFooter">
+      <p>&copy; 2021</p>
+    </footer>
+  </body>
+</html>
